@@ -65,6 +65,8 @@ public class UserController {
 	                	 Optional<UserVO> employee = this.service.getEmployeeByUserAndPass(userVO); 
 	                	 if(employee.isPresent()) {
 	                		 map.put(STATUS, SUCCESS);  
+ 					map.put(STATUS, SUCCESS);  
+
 	                	 }
 	                
 	                else {
